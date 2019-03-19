@@ -1,2 +1,50 @@
-# CYL097.github.io
-# will.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>表格</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+    <!--创建表格-->
+     <table border="6" width="500" bgcolor="#f2f2f2" cellspacing="0">
+      <caption>前端工程师平均工资</caption>
+      <thead bgcolor="#d8e4bc">
+      <tr>
+      <th rowspan="2">城市</th>
+      <th colspan= "2">2014</th>
+       <th rowspan="2">2015</th>
+        <th rowspan="2">2016</th>
+      </tr>
+      <tr  bgcolor="#d8e4bc">
+      <th>上半年</th> 
+      <th>下半年</th>
+      </tr>
+       <tbody align="center" valign="middle">
+       <tr>
+      <th bgcolor="#b8cce4">北京</th>
+      <th>8000</th>
+      <th>8000</th>
+       <th>9000</th>
+        <th>10000</th>
+      </tr>
+       </thead>
+       <tr>
+      <td bgcolor="#b8cce4">上海</td>
+      <th>8000</th>
+      <td>8000</td>
+       <td>7000</td>
+        <td>10000</td>
+      </tr>
+    </tbody>
+    <tfoot align="center" valign="middle">
+       <tr>
+      <td bgcolor="#b8cce4">合计</td>
+      <th>8000</th>
+      <td>8000</td>
+       <td>9000</td>
+        <td>10000</td>
+      </tr>
+       </tfoot>
+     </table>
+</body>
+</html>
